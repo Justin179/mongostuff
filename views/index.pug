@@ -1,0 +1,17 @@
+|Hello world
+br
+form(method="get" action="/search")
+	span search for movie
+	input(name="title")
+	button submit
+br 
+br
+br
+|Add movie
+form(method="post" action="/")
+	span movie
+	br
+	input(name="title")
+	button submit
+div(style="margin-top:20px;")
+	|#{movie}
